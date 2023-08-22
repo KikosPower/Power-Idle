@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://kikospower.github.io/Power-Idle/placement.css">
+    <link rel="stylesheet" type="text/css" href="https://kikospower.github.io/Power-Idle/themes.css">
+  </head>
+  <body id="body" class="normal">
+    <header>
+      <h1>You have </h1>
+      <h1 id="powerLevel">NaN</h1>
+      <h1> power.</h1><br>
+      <h2 id="powerProduction">You are generating NaN power per second.</h2>
+      <table id="tick">
+        <tr>
+          <td>
+            <p id="tickspeed">Current Tickspeed: NaN</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="tickeffect">Lower Tickspeed by NaN%</p>
+            <p id="tickcost">Cost: NaN</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button onclick="powerBuy("tick", false)">Buy</button>
+          </td>
+          <td>
+            <button onclick="powerBuy("tick", true)">Buy Max</button>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <button onclick="tabNav(0, 0)">Generators</button>
+        </li>
+        <li>
+          <button onclick="tabNav(1, 0)">Achievements</button>
+        </li>
+        <li>
+          <button onclick="tabNav(2, 0)">Options</button>
+        </li>
+      </ul>
+    </nav>
+    <div id="generators"></div>
+    <div id="achievements"></div>
+    <div id="options">
+      <div class="subnav"></div>
+      <table></table>
+    </div>
+    <footer></footer>
+  </body>
+</html>
