@@ -1,7 +1,7 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="https://kikospower.github.io/Power-Idle/placement.css">
-    <link rel="stylesheet" type="text/css" href="https://kikospower.github.io/Power-Idle/themes.css">
+    <link rel="stylesheet" type="text/css" href="placement.css">
+    <link rel="stylesheet" type="text/css" href="themes.css">
   </head>
   <body id="body" class="normal">
     <header>
@@ -13,11 +13,11 @@
         <tr>
           <td>
             <p id="tickspeed">Current Tickspeed: NaN</p>
+            <p id="tickeffect">Lower Tickspeed by NaN%</p>
           </td>
         </tr>
         <tr>
           <td>
-            <p id="tickeffect">Lower Tickspeed by NaN%</p>
             <p id="tickcost">Cost: NaN</p>
           </td>
         </tr>
@@ -44,7 +44,15 @@
         </li>
       </ul>
     </nav>
-    <div id="generators"></div>
+    <div id="generators">
+      <div class="subnav">
+        <ul>
+          <li>
+            <button onclick="tabNav(0, 1)">Normal</button>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div id="achievements"></div>
     <div id="options">
       <div class="subnav"></div>
