@@ -8,23 +8,26 @@
     <link rel="stylesheet" type="text/css" href="themes/normal.css">
   </head>
   <body class="normal">
-		<div id="ui-container">
-			<header>
-				<p>You have <span id="powerlevel">NaN</span> power.</p>
-				<p>You are generating <span id="powerProd">NaN</span> every second.</p>
-			</header>
-			<nav>
-				<button>Generators</button>
-				<button>Achievements</button>
-				<button>Options</button>
-			</nav>
+    <div id="ui-container">
+      <header>
+        <p>You have <span id="powerlevel">NaN</span> power.</p>
+        <p>You are generating <span id="powerProd">NaN</span> every second.</p>
+      </header>
+      <nav>
+        <button>Generators</button>
+        <button>Achievements</button>
+        <button>Options</button>
+      </nav>
 			<div id="subnav">
-				<div id="generators">
+				<div id="generators" class="generators">
 					<button>Normal</button>
 				</div>
 			</div>
 			<div id="page">
-				<div id="generation">
+				<div id="generation" class="generators">
+          <div id="genNormal">
+            <div id="gen1" class="single-row"></div>
+          </div>
 				</div>
 				<div id="achievements"></div>
 				<div id="options"></div>
