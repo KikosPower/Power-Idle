@@ -23,4 +23,9 @@ nav button {
 
 .single-row {
   display: grid;
+  grid-column-template: repeat(7, 1fr);
+}
+
+.single-row.stats {
+  display: flex;
 }
