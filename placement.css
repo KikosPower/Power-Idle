@@ -1,12 +1,22 @@
+html {
+	font-size: 75%;
+}
+
 body {
-  margin: 5px;
-  text-align: center;
+	margin: 5px;
+	text-align: center;
 }
 
-h1 {
-  font-size: 15px;
+nav button {
+	font-size: 1em;
 }
 
-h2 {
-  font-size: 10px;
+#powerlevel {
+	font-size: 3em;
+}
+
+#ui-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
