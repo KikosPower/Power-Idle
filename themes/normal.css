@@ -1,1 +1,4 @@
-body.normal {}
+body.normal {
+  background_color: #fff;
+  font_family: "Audiowide", serif;
+}
